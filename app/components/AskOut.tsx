@@ -1,3 +1,4 @@
+```tsx
 "use client";
 
 import { useState } from "react";
@@ -17,8 +18,8 @@ const maybeMessages = [
     note: "Okay... I respect the hesitation.",
   },
   {
-    button: "OKAY, OKAY.",
-    note: "No pressure. You can actually choose maybe.",
+    button: "PLEASE",
+    note: "Please go out with me!",
   },
 ];
 
@@ -333,3 +334,4 @@ export default function AskOut({ onAnswer }: AskOutProps) {
     </section>
   );
 }
+
