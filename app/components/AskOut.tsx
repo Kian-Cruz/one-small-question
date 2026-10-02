@@ -20,8 +20,12 @@ const maybeMessages = [
   },
   {
     button: "PLEASE",
+<<<<<<< HEAD
     note: "Please go out with me! 🥺",
     cat: "🥺",
+=======
+    note: "Please go out with me!",
+>>>>>>> 741150bfae923ab7ad5a297569fb0b983f862382
   },
 ];
 
@@ -470,3 +474,4 @@ export default function AskOut({ onAnswer }: AskOutProps) {
     </section>
   );
 }
+
